@@ -15,7 +15,9 @@ const BioCard = ({
         <Subheading title={name} />
         <SmallHeading title={role} />
         {text.map((paragraph) => (
-          <p key={paragraph}>{paragraph}</p>
+          <p className={styles.biocard__paragraph} key={paragraph}>
+            {paragraph}
+          </p>
         ))}
       </div>
     </article>

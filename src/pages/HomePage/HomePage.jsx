@@ -1,7 +1,9 @@
+import Showcase from "../../components/Showcase/Showcase";
+
 const HomePage = () => {
   return (
     <main>
-      <h1>Home Page</h1>
+      <Showcase />
     </main>
   );
 };

@@ -1,0 +1,6 @@
+@use "../../styles/partials/variables/palette";
+
+.small_heading {
+  margin: 10px 0;
+  color: palette.$primary-accent;
+}

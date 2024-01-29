@@ -1,0 +1,9 @@
+.card_list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  &__hr {
+    border: 1px solid #c6c6c6;
+  }
+}

@@ -1,0 +1,11 @@
+.biocard {
+  display: flex;
+  gap: 50px;
+
+  &__img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}

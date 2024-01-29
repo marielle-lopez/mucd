@@ -1,0 +1,8 @@
+@use "../../styles/partials/variables/palette";
+
+.subheading {
+  margin: 15px 0;
+  color: palette.$primary-link;
+  font-size: 28px;
+  font-weight: 400;
+}

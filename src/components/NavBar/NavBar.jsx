@@ -22,6 +22,9 @@ const NavBar = () => {
         <NavLink className={linkStyles} to="/styles">
           Styles
         </NavLink>
+        <NavLink className={linkStyles} to="/committee">
+          The Committee
+        </NavLink>
       </div>
     </nav>
   );

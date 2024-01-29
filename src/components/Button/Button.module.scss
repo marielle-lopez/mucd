@@ -1,0 +1,14 @@
+@use "../../styles/partials/variables/palette";
+@use "../../styles/partials/variables/typography";
+
+.btn {
+  width: fit-content;
+  padding: 15px 20px;
+  font-family: typography.$primary;
+  font-weight: 700;
+  font-size: 20px;
+  color: palette.$primary-accent;
+  background-color: palette.$primary-btn;
+  border: none;
+  border-radius: 15px;
+}

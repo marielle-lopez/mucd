@@ -1,0 +1,7 @@
+@use "../../styles/partials/variables/palette";
+
+.link {
+  color: palette.$primary-link;
+  text-decoration: none;
+  font-weight: bold;
+}

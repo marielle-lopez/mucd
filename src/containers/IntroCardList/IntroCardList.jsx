@@ -9,6 +9,7 @@ const IntroCardList = () => {
         data.map((item) => (
           <IntroCard
             key={item.title}
+            img={item.img}
             title={item.title}
             text={item.text}
             links={item.links}

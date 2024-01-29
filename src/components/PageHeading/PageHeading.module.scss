@@ -1,0 +1,6 @@
+@use "../../styles/partials/variables/palette";
+
+.heading {
+  margin: 40px 0;
+  color: palette.$primary-accent;
+}

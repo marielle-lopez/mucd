@@ -1,5 +1,9 @@
 [
   {
+    "img": {
+      "path": "/infocard-img1.jpg",
+      "alt": "Melbourne University Cheer and Dance Open Pom All Girls Team - MU Sparrows"
+    },
     "title": "Who Are We?",
     "text": [
       "The University of Melbourne Cheer and Dance Club is one of the university's newest sports affiliated teams. As a representative of Melbourne University, our Cheer and Dance club is one of Victoria's premier squads.",
@@ -12,6 +16,10 @@
     ]
   },
   {
+    "img": {
+      "path": "/infocard-img2.png",
+      "alt": "Melbourne University Cheer and Dance Cheer Team"
+    },
     "title": "Come Join!",
     "text": [
       "The Melbourne University Cheer and Dance Club began in 2012 with only 24 members, and has now offers cheerleading alongside the multiple dance styles of pom, lyrical, hip-hop and jazz.",
@@ -23,6 +31,10 @@
     ]
   },
   {
+    "img": {
+      "path": "/infocard-img3.png",
+      "alt": "Melbourne University Cheer and Dance All Star Pom Team - MU Heat"
+    },
     "title": "History",
     "text": [
       "In 2017, our All Star pom team, MU Heat, not only received 1st place and pom grand champions at DCE's Asia Pacific Grand Internationals, they also received a bid to compete at the Dance Worlds in Orlando, Florida in 2018! They went on to place 9th in the world, the only Australian All-Girl Open Pom team to place Top 10 in history!"

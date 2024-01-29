@@ -1,0 +1,30 @@
+@use "../../styles/partials/variables/palette";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background: palette.$primary-accent;
+  padding: 10px 30px 10px 20px;
+
+  &__logo {
+    width: 100px;
+  }
+
+  &__links {
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+    padding-bottom: 10px;
+
+    &__item {
+      padding-top: 5px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+
+      &__active {
+        border-top: 3px solid palette.$primary-btn;
+      }
+    }
+  }
+}

@@ -1,7 +1,11 @@
+import Showcase from "../../components/Showcase/Showcase";
+import IntroCardList from "../../containers/IntroCardList/IntroCardList";
+
 const HomePage = () => {
   return (
     <main>
-      <h1>Home Page</h1>
+      <Showcase />
+      <IntroCardList />
     </main>
   );
 };

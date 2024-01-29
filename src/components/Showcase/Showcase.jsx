@@ -1,4 +1,5 @@
 import styles from "./Showcase.module.scss";
+import Button from "../Button/Button.jsx";
 
 const Showcase = () => {
   return (
@@ -9,9 +10,12 @@ const Showcase = () => {
         alt="Melbourne University Cheer and Dance Open University Hip-hop Team - MU Hawks"
       />
       <div className={styles.showcase__overlay}>
-        <h1 className={styles.showcase__overlay__heading}>
-          Melbourne University Cheer and Dance
-        </h1>
+        <div className={styles.showcase__overlay__content}>
+          <h1 className={styles.showcase__overlay__content__heading}>
+            Melbourne University Cheer and Dance
+          </h1>
+          <Button label={"Join Us!"} />
+        </div>
       </div>
     </div>
   );

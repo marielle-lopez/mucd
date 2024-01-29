@@ -24,11 +24,17 @@
       rgba(0, 0, 0, 0)
     );
 
-    &__heading {
-      width: 45%;
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
       padding: 50px;
-      color: white;
-      font-size: 64px;
+      width: 45%;
+
+      &__heading {
+        color: white;
+        font-size: 64px;
+      }
     }
   }
 }
